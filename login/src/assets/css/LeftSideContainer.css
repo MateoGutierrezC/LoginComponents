@@ -1,0 +1,7 @@
+.leftContainer{
+    width: 18vw;
+    height: 60vh;
+    border-radius:  0.313rem 0rem 0rem 0.313rem ;
+   /*  background-color: #39A900; */
+    background-image: url(../imgs/background.png);
+}
