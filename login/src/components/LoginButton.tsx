@@ -5,9 +5,11 @@ interface LoginButton {
 }
 
 function LoginButton({ title }: LoginButton) {
-    <div>
-        <a className='loginButton' href="">{title}</a>
-    </div>
+    return (
+        <div className='buttonContainer'>
+            <a className='loginButton'>{title}</a>
+        </div>
+    )
 }
 
 

@@ -1,0 +1,20 @@
+.itemsContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 45vw;
+    max-height: 50vh;
+    overflow: auto;
+    background-color: rgba(57, 169, 0, 0.20);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.itemsContainer::-webkit-scrollbar {
+    width:0.8rem;
+}
+
+.itemsContainer::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #39A900;
+}

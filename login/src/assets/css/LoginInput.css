@@ -9,10 +9,10 @@
     width: 15vw;
     border: none;
     border-bottom: 1px solid rgba(56, 169, 0, 0.6);
-    color: rgba(56, 169, 0, 0.6);
+    color: #000;
     outline: none;
     background-color: transparent;
-
+    margin: -1rem;
 }
 
 .loginInput::placeholder {
